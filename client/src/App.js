@@ -4,12 +4,12 @@ import LocationAndHours from './pages/LocationAndHours';
 import ContactUs from './pages/ContactUs';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './index.css'
-import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Header from './components/Header';
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Header />
       <Routes>
         <Route exact path="/" element={<Menu />} />
         <Route exact path="/locationandhours" element={<LocationAndHours />} />

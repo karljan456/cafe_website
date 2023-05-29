@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Bree Serif', 'serif' !important;
-
 }
 
 /* Navbar */
@@ -22,7 +21,6 @@ body {
 
 /* Menu */
 .menu {
-    width: fit-content;
     width: 80%;
     background-color: #9A7B4F;
     margin-left: auto;
@@ -32,10 +30,26 @@ body {
     text-align: center;
 }
 
+.menu_item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .coffee, .dessert {
+    text-align: left;
+    width: 75%;
+  }
+
+  .price {
+    text-align: right;
+    width: 25%;
+  }
 
 /* Footer */
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     background-color: #C5832B;
     width: 100%;
@@ -62,4 +76,9 @@ footer {
 .copyright{
     margin-left: 10px;
     width: fit-content;
+}
+
+/* Menu icon */
+.coffee_icon{
+    font-size: 2rem;
 }
