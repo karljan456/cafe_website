@@ -110,6 +110,41 @@ footer {
     margin-top: 0;
 }
 
+/* Contact Page */
+.contact_details p{
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact_details{
+    padding-left: 3rem;
+    margin-left: 10px;
+}
+
+input[type="text"], input[type="email"], select, textarea{
+    background: rgba(255,255,255,0.4);
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 30p;
+    top: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #333;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+}
+
+input[type="submit"] {
+    width: max-content;
+    height: 2em;
+    font-size: 1.1rem;
+    border-color: white;
+    min-width: 400px;
+  }
+
+
 @media(max-width: 800px){
 
     iframe{
