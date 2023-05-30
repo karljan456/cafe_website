@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Bree Serif', 'serif' !important;
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
 }
 
 /* Navbar */
@@ -81,4 +83,38 @@ footer {
 /* Menu icon */
 .coffee_icon{
     font-size: 2rem;
+}
+
+/* Location */
+.wrapper{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+.title{
+    text-decoration: underline;
+}
+
+.cafe_photo{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: #F9F9F9;
+}
+
+.info{
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+@media(max-width: 800px){
+
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+
 }
